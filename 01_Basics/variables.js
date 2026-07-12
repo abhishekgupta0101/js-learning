@@ -7,6 +7,9 @@ accountcity = "Mumbai"
 accountEmail = "abc@gamil.com"
 accountPassword = "12345"
 accountcity = "Jaipur"
-
+/*
+prefer not to use var beacuse of issue 
+in bloack csope and functional scope 
+*/
 console.log(accountId);
 console.table([accountId, accountEmail,accountPassword, accountcity]);
